@@ -138,24 +138,37 @@
 
 
             //15
-            int intValue = 911;
-            int r1 = intValue % 10;
-            int r2 = intValue / 100;
-            int r3 = intValue % 100 / 10;
+            //int intValue = 911;
+            //int r1 = intValue % 10;
+            //int r2 = intValue / 100;
+            //int r3 = intValue % 100 / 10;
 
-            int summOfNumbers = r1 + r2 + r3;
-            if (summOfNumbers > 20)
-            {
-                Console.Write(summOfNumbers);
-            } else
-            {
-                Console.Write("20 dan kam");
-            }
+            //int summOfNumbers = r1 + r2 + r3;
+            //if (summOfNumbers > 20)
+            //{
+            //    Console.Write(summOfNumbers);
+            //} else
+            //{
+            //    Console.Write("20 dan kam");
+            //}
 
             //16
-            
+            //???
 
-            
+            //17
+            //int intValue = 29;
+            //int r1 = intValue % 10;
+            //int r2 = intValue / 10;
+
+            //int summOfNumbers = r1 * r2;
+            //if (summOfNumbers > 12)
+            //{
+            //    Console.Write(summOfNumbers);
+            //}
+            //else
+            //{
+            //    Console.Write("20 dan kam");
+            //}
         }
     }
 }
