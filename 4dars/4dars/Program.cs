@@ -1,4 +1,6 @@
-﻿namespace _4dars
+﻿using static System.Net.Mime.MediaTypeNames;
+
+namespace _4dars
 {
     internal class Program
     {
@@ -41,11 +43,30 @@
             //}
 
             //5
-            
-            int intValue = 834;
-            string length = intValue.ToString();
-            var TrueLength = length.Length;
-            return TrueLength.ToString();
+            //int intValue = 834;
+            //string length = intValue.ToString();
+            //var TrueLength = length.Length;
+            //return TrueLength.ToString();
+
+            //6
+            //var count = 0;
+            //    foreach (var i in text)
+            //    {
+            //        if (char.IsDigit(i))
+            //        {
+            //            ++count;
+            //        }
+            //    }
+            //    if(count == text.Length)
+            //    {
+            //        return true;
+            //    }
+            //    else
+            //    {
+            //        return false;
+            //    }
+
+
         }
     }
 }
