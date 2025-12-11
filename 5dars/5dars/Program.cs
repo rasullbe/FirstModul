@@ -1,22 +1,56 @@
-﻿using System.Threading.Channels;
-
-namespace _5dars
+﻿class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.Write("Введите длину листа:");
-            var n = int.Parse(Console.ReadLine());
+        int[] arr = { 12, 345, -120, 7, 999, 1000, -999 };
 
-            List<int> list = new List<int>();
+        
+        PrintNumbers(arr);
 
-            for(var i = 0;  i < n; i++)
-            {
-                Console.Write("Введите элемент листа:");
-                var num = int.Parse(Console.ReadLine());
-                list.Add(num);
-            }
-        }
+        // int result = CountNumbers(arr);
+        // Console.WriteLine(result);
     }
+
+
+    //static int CountThreeDigitNumbers(int[] numbers)
+    //{
+    //    int count = 0;
+    //    foreach (int num in numbers)
+    //    {
+    //        if ((num >= 100 && num <= 999) || (num <= -100 && num >= -999))
+    //        {
+    //            count++;
+    //        }
+    //    }
+    //
+    //    return count;
+    //}
+
+    //2 
+    //static void PrintNumbers(int[] arr)
+    //{
+    //    foreach (int i in arr)
+    //    {
+    //        if (i % 2 == 0)
+    //        {
+    //            Console.WriteLine(i);
+    //        }
+    //    }
+    //}
+
+    //3 
+    //static void PrintNumbers(int[] arr)
+    //{
+    //    foreach (int i in arr)
+    //    {
+    //        if (i % 2 != 0)
+    //        {
+    //            Console.WriteLine(i);
+    //        }
+    //    }
+    //}
+
+    //4
+
 }
+
