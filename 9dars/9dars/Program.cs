@@ -20,22 +20,33 @@ internal class Program
 
 
 
+    //static void Main(string[] args)
+    //{
+    //    List<string> list = new List<string>() { "hello", "$hello"};
+    //    Console.WriteLine(Checker(list));
+    //}
+
+    //static int Checker(List<string> text)
+    //{
+    //    var count = 0;
+    //    foreach (var item in text)
+    //    {
+    //        if (item[0] == '$')
+    //        {
+    //            count++;
+    //        }
+    //    }
+    //    return count;
+    //}
+
+
     static void Main(string[] args)
     {
-        List<string> list = new List<string>() { "hello", "$hello"};
-        Console.WriteLine(Checker(list));
+        Console.WriteLine();
     }
 
-    static int Checker(List<string> text)
+    static int Calculator(int x, int y)
     {
-        var count = 0;
-        foreach (var item in text)
-        {
-            if (item[0] == '$')
-            {
-                count++;
-            }
-        }
-        return count;
+        
     }
 }
