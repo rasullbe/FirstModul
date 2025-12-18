@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace _10dars;
+﻿namespace _10dars;
 
 internal class Program
 {
