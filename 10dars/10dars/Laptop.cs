@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _10dars
+﻿namespace _10dars
 {
     public class Laptop
     {
@@ -11,7 +7,7 @@ namespace _10dars
         public string Processor { get; set; }
         public string ScreenType { get; set; }
         public int ManifacturedYear { get; set; }
-        
+
     }
 
 }
